@@ -54,3 +54,9 @@ Initialization of git:
 	=> Git Pull => Online => Offline repository
 	-> git pull remotename branchname
 	
+	Removing files in offline:
+	==========================
+	-> rm filename.extension
+		=> Here we need to commit and then push to online repository 
+	-> git rm filename.extension filename.extension
+		=> Here no need of using git add . directly we can commit then push it will updates to Online repository
