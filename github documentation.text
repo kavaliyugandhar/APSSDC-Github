@@ -1,0 +1,26 @@
+15-03-2021:
+==========
+Git => Offline to store the data 
+Github => Online to store it in cloud
+
+After creating a folder then we need to use git bash
+In gitbash we are going to create a file
+-> single file creation
+	=> touch filename.extension
+-> Multiple file creation
+	=> touch filename.extension filename.extension
+
+Commands to check the file or folder:
+=====================================
+-> ls => To check whether the files are created in it or not. It displays in row wise
+-> ls -a => hidden files are to be displayed
+-> ls -l => it displays all the files in list format
+
+Initialization of git:
+======================
+	-> git init => It will displays the master as default branch
+	-> git status => To check the file  or folders are in tracked or untracked state.
+	-> git add
+		=> git add filename.extension => single file adding
+		=> git add . => Multiple files adding
+	-> 
