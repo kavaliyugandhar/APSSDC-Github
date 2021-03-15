@@ -23,4 +23,20 @@ Initialization of git:
 	-> git add
 		=> git add filename.extension => single file adding
 		=> git add . => Multiple files adding
-	-> 
+	-> git commit -m "Something text" => tracked to be updated to move for online repository
+	
+	=> For single folder configuration:
+	===================================
+	-> git config user.email "your mailid" => To check who is going to modify the  data in local repository
+		=> git config user.email => To check the user email
+	-> git config user.name "your name" => To check who is going to modify the  data in local repository
+		=> git config user.name => To check the username
+		
+	=> For All Folders:
+	===================
+	-> git config --global user.email "your email"
+		=> git config user.email
+	-> git config --global user.name "your name"
+		=> git config user.name
+	
+	
